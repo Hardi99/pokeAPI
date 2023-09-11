@@ -1,0 +1,60 @@
+body {
+  font-family: "Nintendo U", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.types-div {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+ul div {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.container {
+  width: 1250px;
+  margin: auto;
+  border: 10px solid red;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 5px solid red;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li:last-child() {
+  margin-left: 10px;
+}
+
+.header img {
+  width: 100px;
+}
