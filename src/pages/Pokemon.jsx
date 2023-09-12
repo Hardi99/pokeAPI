@@ -8,12 +8,14 @@ const Pokemon =() => {
     const [data, setData] = useState();
     const [isLoading, setIsLoading] = useState(true);
 
+    //On clique sur un pokemon depuis la page Pokemon pour venir sur cette page où l'url contient le nom du pokemon. On utilise ensuite le useParams p
     const { name } = useParams();
   
     useEffect(() => {
         const fetchData = async () => {
         try {
             const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`);
+            console.log(name)
             console.log(response.data);
             setData(response.data);
             setIsLoading(false);

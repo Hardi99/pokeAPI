@@ -3,8 +3,9 @@ import '../App.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Type =() => {
+const Type = () => {
     const [data, setData] = useState();
     const [isLoading, setIsLoading] = useState(true);
 
@@ -36,10 +37,12 @@ const Type =() => {
                 //console.log(string);
                 //console.log(data);
                 return (
-                    <div key={index}>
+                  <Link key={index} to={`/pokemons/${typedPokemon.pokemon.name}`}>
+                    <div>
                         <p>{typedPokemon.pokemon.name}</p>
                         <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data[6]}.png`} alt="" />
                     </div>
+                  </Link>
                 );
             })}
         </ul>

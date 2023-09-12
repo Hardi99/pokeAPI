@@ -30,7 +30,7 @@ const Pokemons =() => {
             {data.results.map((pokemon, index) => {
                 return (
                     <Link key={index} to={`/pokemons/${pokemon.name}`}>
-                        <div key={index}>
+                        <div>
                             <p>{pokemon.name}</p>
                             <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`} alt="" />
                         </div>
