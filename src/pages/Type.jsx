@@ -34,8 +34,8 @@ const Type = () => {
             {data.pokemon.map((typedPokemon, index) => {
                 let string = typedPokemon.pokemon.url
                 let data = string.split('/');
-                //console.log(string);
-                //console.log(data);
+                console.log(string);
+                console.log(data);
                 return (
                   <Link key={index} to={`/pokemons/${typedPokemon.pokemon.name}`}>
                     <div>

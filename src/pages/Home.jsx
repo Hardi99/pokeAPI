@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <div className='container'>
-    <h1>Bienvenue à toi cher dresseur !!</h1>
+      <h1>Bienvenue à toi cher dresseur !!</h1>
     </div>
   )
 }
