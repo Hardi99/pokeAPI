@@ -23,7 +23,9 @@ const Types =() => {
     }, []);
 
     return isLoading ? (
-      <span>En cours de chargement...</span>
+      <div className='container'>
+        <span>En cours de chargement...</span>
+      </div>
     ) : (
       <div className='container'>
         <ul className='list'>
