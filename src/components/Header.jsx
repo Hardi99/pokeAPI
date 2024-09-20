@@ -17,14 +17,17 @@ function myFunction() {
 
 const Header =() => {
   return (
-    <header className='container'>
-      <div className='navbar'>
-        <Link to='/'><img src={logo} alt="" /></Link>
+    <header className='navbar'>
+      <div className='container'>
         <div id='responsive'>
+          <img src={logo} alt="" />
           <Link className="menu-burger" onClick={myFunction}>☰</Link>
         </div>
 
         <ul className='topnav' id='topNav'>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
             <li>
               <Link to='/pokemons'>Pokemons</Link>
             </li>

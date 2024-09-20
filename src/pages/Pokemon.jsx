@@ -29,7 +29,7 @@ const Pokemon =() => {
     return isLoading ? (
       <span>En cours de chargement...</span>
     ) : (
-      <div className='container'>
+      <div className='content'>
         <ul className='list'>
             <div>
                 <p>{name}</p>

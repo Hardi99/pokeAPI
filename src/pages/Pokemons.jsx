@@ -25,7 +25,7 @@ const Pokemons =() => {
     return isLoading ? (
       <span>En cours de chargement...</span>
     ) : (
-      <div className='container'>
+      <div className='content'>
         <ul className='list'>
             {data.results.map((pokemon, index) => {
                 return (

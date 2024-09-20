@@ -23,11 +23,11 @@ const Types =() => {
     }, []);
 
     return isLoading ? (
-      <div className='container'>
+      <div>
         <span>En cours de chargement...</span>
       </div>
     ) : (
-      <div className='container'>
+      <div className='content'>
         <ul className='list'>
             {data.results.map((type, index) => {
                 return (

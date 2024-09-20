@@ -28,7 +28,7 @@ const Type = () => {
     return isLoading ? (
       <span>En cours de chargement...</span>
     ) : (
-      <div className='container'>
+      <div className='content'>
         <h1>Type : {type}</h1>
         <ul className='list'>
             {data.pokemon.map((typedPokemon, index) => {
