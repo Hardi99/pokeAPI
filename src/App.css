@@ -98,8 +98,6 @@ ul div {
 }
 
 .container {
-  max-width: 1024px;
-  margin: 0 auto;
   border: 10px solid red;
   display: flex;
   align-items: center;
