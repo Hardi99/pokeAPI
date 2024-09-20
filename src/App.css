@@ -8,6 +8,10 @@ body {
   display: none;
 }
 
+.menu-burger {
+  font-size: 25px;
+}
+
 .topnav {
   display: flex;
   gap: 25px
