@@ -30,7 +30,7 @@ const Pokemon =() => {
       <span>En cours de chargement...</span>
     ) : (
       <div className='container'>
-        <ul>
+        <ul className='list'>
             <div>
                 <p>{name}</p>
                 <img src={data.sprites.front_default} alt="" />
