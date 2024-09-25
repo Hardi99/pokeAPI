@@ -52,7 +52,7 @@ body {
   .topnav.responsive {
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 20px 0;
   }
   .topnav.responsive .icon {
     position: absolute;
