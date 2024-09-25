@@ -52,7 +52,7 @@ body {
   .topnav.responsive {
     display: flex;
     flex-direction: column;
-
+    margin: 20px 0;
   }
   .topnav.responsive .icon {
     position: absolute;
@@ -88,6 +88,8 @@ h1 {
   flex-wrap: wrap;
   gap: 12px;
   justify-content: center;
+  margin: 20px auto;
+  max-width: 1024px;
 }
 
 ul div {
@@ -97,12 +99,17 @@ ul div {
   text-align: center;
 }
 
-.container {
+.navbar {
   border: 10px solid red;
+  border-bottom: 5px solid red;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 nav {
@@ -129,4 +136,5 @@ span {
 
 .content {
   border: 10px solid red;
+  border-top: 5px solid red;
 }

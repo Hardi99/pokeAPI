@@ -8,7 +8,7 @@ const Pokemon =() => {
     const [data, setData] = useState();
     const [isLoading, setIsLoading] = useState(true);
 
-    //On clique sur un pokemon depuis la page Pokemon pour venir sur cette page où l'url contient le nom du pokemon. On utilise ensuite le useParams p
+    //On clique sur un pokemon depuis la page Pokemons pour venir sur cette page où l'url contient le nom du pokemon. On utilise ensuite le useParams p
     const { name } = useParams();
   
     useEffect(() => {
